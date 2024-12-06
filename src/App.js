@@ -11,7 +11,7 @@ function App() {
     <Router>
       <div style={{ display: 'flex' }}>
         <Sidebar />
-        <div style={{ marginLeft: '25%', padding: '20px', width: '75%' }}>
+        <div style={{ width: '100%' }}>
           <Routes>
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/team" element={<Team />} />
